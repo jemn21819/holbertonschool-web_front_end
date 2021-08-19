@@ -1,0 +1,12 @@
+/* Sass file that assigns */
+@mixin add_margin($margin) {
+	margin-left: $margin;
+	margin-right: $margin;
+}
+body {
+	@include add_margin(10px);
+}
+
+div {
+	@include add_margin(15px);
+}

@@ -1,0 +1,17 @@
+/* Sass file that assigns */
+%shared_font_size {
+	font-size: 12px; 
+}
+
+.info {
+	@extend %shared_font_size;
+}
+
+.success {
+	@extend %shared_font_size;
+
+color: #00FF00; }
+
+.warning {
+	@extend %shared_font_size;
+color: #FF0000; }
